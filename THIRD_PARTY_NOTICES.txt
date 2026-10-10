@@ -1,0 +1,39 @@
+OPMChord 1.2.3
+
+Original application code: 0BSD, Copyright (C) 2026 by I.C.KaZe.
+
+Independent OPM 0.13
+Unmodified x64 DLL and public C ABI header, 0BSD.
+See third_party/IndependentOPM_LICENSE.txt.
+The pitch-display formula is derived from its original, independent source.
+
+IndependentMDX 0.25
+X68Sound bridge / renderer and C86CTL output adapter reused under 0BSD.
+Copyright (c) 2026 IndependentMDX contributors.
+IndependentMDX is a separate MDX/PDX playback application. The reused
+adapters in OPMChord are src/x68_bridge.h, src/x68_render.h,
+src/c86_gain.h and src/c86_output.h; their original 0BSD attribution
+is retained separately from the new application code.
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted.
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+
+C86CTL ABI declarations: BSD 3-Clause.
+Copyright (c) 2009-2012 honet.
+Copyright (c) 2014, KIICHIRO KOTAJIMA.
+See third_party/C86CTL_LICENSE.txt for full terms.
+
+X68Sound.dll / C86CTL.dll: optional user-supplied DLLs; not bundled.
+No X68Sound implementation is included. These DLLs retain their own licenses.
+
+Bundled application binaries are cross-compiled with Zig 0.13.0.
+Compiler/runtime notices accompany the binaries in third_party/ZIG_RUNTIME_NOTICES.txt.
+The VS2022 build uses Microsoft's compiler and Windows SDK instead.
+
+The reference XLSX is supplied by the user and is preserved without changes.
